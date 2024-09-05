@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cinema X</h1>
+    </header>
+
+    <section id="filmes">
+        <h2>Filmes em Cartaz</h2>
+        <div class="filme">
+            <h3>Filme: Vingadores - Ultimato</h3>
+            <p>Duração: 3h</p>
+            <div class="sessoes">
+                <h4>Sessões Disponíveis</h4>
+                <div class="sessao">
+                    <p>Sala: 1 | Capacidade: 100 assentos</p>
+                    <p>Horário: 14:00</p>
+                    <button class="btn-comprar">Comprar Ingresso</button>
+                </div>
+                <div class="sessao">
+                    <p>Sala: 3 | Capacidade: 80 assentos</p>
+                    <p>Horário: 18:00</p>
+                    <button class="btn-comprar">Comprar Ingresso</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="comprar-ingresso">
+        <h2>Compra de Ingressos</h2>
+        <form action="#">
+            <label for="filme">Escolha o Filme:</label>
+            <select id="filme">
+                <option>Vingadores - Ultimato</option>
+                <option>Homem de Ferro 3</option>
+                <option>Capitão América</option>
+            </select>
+
+            <label for="sessao">Escolha a Sessão:</label>
+            <select id="sessao">
+                <option>Sala 1 - 14:00</option>
+                <option>Sala 3 - 18:00</option>
+            </select>
+
+            <label for="tipo-ingresso">Tipo de Ingresso:</label>
+            <select id="tipo-ingresso">
+                <option>Inteiro</option>
+                <option>Meia-Entrada</option>
+            </select>
+
+            <button type="submit" class="btn-comprar">Finalizar Compra</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cinema X. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
